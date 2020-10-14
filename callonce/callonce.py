@@ -1,6 +1,6 @@
-import inspect
-from typing import Any, Callable, Dict, NamedTuple, Type, TypeVar
 import functools
+import inspect
+from typing import Dict, NamedTuple, TypeVar
 
 
 class Position(NamedTuple):

@@ -1,7 +1,8 @@
 from os import name
-from callonce._version import __version__
-from setuptools import setup, find_packages
 
+from setuptools import find_packages, setup
+
+from callonce._version import __version__
 
 setup(
     name='callonce',
