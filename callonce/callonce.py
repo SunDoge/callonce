@@ -10,7 +10,7 @@ class Position(NamedTuple):
 
 _POSITIONS: Dict[Position, int] = {}
 _TIMES = 'times'
-T = TypeVar('T')  # type: ignore
+T = TypeVar('T')
 
 
 def callonce(func: T) -> T:
