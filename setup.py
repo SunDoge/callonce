@@ -23,4 +23,5 @@ setup(
     url='https://github.com/SunDoge/callonce',
     packages=find_packages(exclude=['tests']),
     install_requires=[],
+    python_requires='>=3.6',
 )
