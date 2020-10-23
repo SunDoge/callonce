@@ -1,5 +1,11 @@
 # callonce
 
+## Install
+
+```bash
+pip install callonce
+```
+
 ## Usage
 
 ```python
